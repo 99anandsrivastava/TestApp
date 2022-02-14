@@ -1,0 +1,49 @@
+#footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background: transparent;
+  
+    mat-toolbar mat-toolbar-row {
+      background: rgb(4, 58, 16);
+    }
+  
+    mat-toolbar-row.ftCopyright {
+      color: #ffffff !important;
+      font: normal 0.6em 'Arial';
+    }
+  
+    mat-toolbar-row li {
+      font: normal 1em 'Arial';
+      display: inline-block;
+      height: 1em;
+      border-right: 0.1em solid;
+      padding-right: 1em;
+      padding-left: 1em;
+  
+      a {
+        color: #ffffff !important;
+        text-decoration: none;
+      }
+  
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .footerMatToolBarFix {
+    min-height: 4% !important;
+    height: 4% !important;
+    background-color: rgb(4, 58, 16);
+    position: fixed;
+    bottom: 0;
+  }
+
+  .mat-toolbar-multiple-rows{
+    min-height: 32px;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }

@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    //padding: 10px;
+    height: 88vh; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .button{
+    align-items: center;
+    height: 40px;
+    width: 350px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color:rgb(4, 58, 16);;
+    
+  }
+
+  .parent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.mat-form-field {
+    width: 100%;
+ min-width: 300px;
+}
+
+
+mat-card-title,
+mat-card-content {
+ display: flex;
+justify-content: center;
+}
+
+.error {
+padding: 16px;
+ width: 300px;
+ color: white;
+ background-color: red;
+}
+
+
+     
